@@ -23,7 +23,7 @@ nav a {
     color: #000;
     font-weight: 700;
     font-size: 12px;
-    margin-right: 35px;
+    margin-right: -35px;
     margin-left: 137px;
 }
 
@@ -42,6 +42,7 @@ header h1 {
 
 .trend-item {
     margin-bottom: 40px;
+    margin-right: -80px;
     max-width: 500px;
      margin-left: 137px;
      display: inline-block;
@@ -89,38 +90,58 @@ section {
 section h1 {
     font-size: 28px;
     margin-top: 57px;
+    margin-bottom: 30px;
     margin-left: 137px;
     font-family: roboto;
     font-weight: 800;
     color: #000000;
 }
 
-.happening-feature img {
-    margin-left: 137px;
-    width:758px ;
-    height: 430px; 
+.happening-feature {
+    position: relative;
+    display: inline-block;
 }
 
-.happening-feature h2 {
-    margin-top:90px ;
-    font-size: 18px;
+.happening-feature img {
+    margin-left: 137px;
+    width: 758px;
+    height: 430px;
+    display: block;
+    margin-bottom:90px;
+}
+
+.happening-feature p {
+    position: absolute;
+    top: 50%;          
+    left: 50%;          
+    transform: translate(-50%, -50%);
     color: #FFFFFF;
-    margin-left: 416px;
-   
+    font-size: 25px;         
+    font-weight: 900;
+    text-align: center; 
+    margin-top: -300px;
+    width: 300px;
+    height: 23px;
+
+
+}
+div{
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .happening-gallery img {
     width: 362px;
     height: 212px;
-    margin-left: 172px;
+    margin-left: 365px;
     margin-bottom: 101px;
-    display: inline-block;
-    vertical-align: middle;
+    margin-top: 40px;
+
 }
 
 footer {
     padding: 40px;
-    background: #243043;
+    background: #243043
 }
 
 .footer-columns {
@@ -135,8 +156,6 @@ footer {
     margin-top: 59px;
     margin-left: 137px;
     color: #818687;
-
-
 }
 
 footer h4 {
@@ -144,6 +163,7 @@ footer h4 {
     margin-left: 920px;
     margin-top: -890px;
     font-size: 14px;
+    margin-bottom: -225px;
     width: 270px;
     height: 14px;
     color: #FFFFFF;
@@ -156,5 +176,5 @@ footer img {
     height: 40px;
     margin-left: 1650px;
     margin-bottom: 103px;
-    margin-top: 53px;
+    margin-top: -53px;
 }
